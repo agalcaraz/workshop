@@ -1,4 +1,14 @@
-﻿import os
+﻿"""
+This module has functions associated with analyzing the geometry of a molecule.
+
+When run as a script and given an xyz file, this script will print out the bonds. Run 
+
+$ python geometry_analysis.py --help 
+
+to see input options.
+"""
+
+import os
 import numpy
 import argparse
 
